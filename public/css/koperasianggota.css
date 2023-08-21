@@ -1,0 +1,70 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  color: white;
+}
+body {
+  background: rgb(130, 106, 251);
+  margin-bottom: 70px;
+}
+
+.border {
+  background: white;
+  border-radius: 20px;
+}
+
+.button {
+  height: 55px;
+  width: 20%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+}
+.button:hover {
+  background: rgb(88, 56, 250);
+}
+.buttontambah {border-radius: 12px;}
+.padding {
+  background: white;
+  border-radius: 20px;
+}
+.table-responsive {
+  text-align: left;
+  padding: 20px; /* add more padding to the left and right of the table */
+  overflow: hidden; /* add this property to apply border-radius to collapsed tables */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.table-bordered {
+  border: 2px solid rgb(88, 56, 250) !important;
+  border-radius: 20px; /* add border-radius to the table */
+}
+
+table.table-bordered th,
+table.table-bordered td {
+  padding: 10px;
+}
+
+.judultopup {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+

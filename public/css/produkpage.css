@@ -1,0 +1,62 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: rgb(130, 106, 251);
+}
+
+.padding {
+  background: white;
+  border-radius: 20px;
+}
+
+.fixedimg {
+  margin-left: -15px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-right: 10px; /* Adjust this margin as needed */
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+.judulproduk {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.deskripsiproduk {
+  margin-top: 20px;
+}
+
+.buttoncart {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

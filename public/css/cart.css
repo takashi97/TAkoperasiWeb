@@ -1,0 +1,68 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: rgb(130, 106, 251);
+}
+
+.padding 
+{
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.jenispengiriman {
+    display:flex;
+    flex-direction: row;
+}
+
+.subtotalleft {
+	float: left;
+}
+
+.subtotalright {
+	float: right;
+}
+
+.totalleft {
+	float: left;
+}
+.totalright {
+	float: right;
+}
+
+.cart_update {
+    width: 10%;
+    margin-top: 20px;
+}
+
+.cart_remove {
+    width: 20%;
+}
+
+.rowcart {
+    margin-bottom: 50px;
+}
+
+.btncheckout {
+    display: flex;
+    justify-content: center;
+}
+
+.noborder {
+    border-style:hidden;
+  }

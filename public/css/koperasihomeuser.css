@@ -1,0 +1,79 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(130, 106, 251);
+  margin-bottom: 70px;
+}
+.card {
+  border-radius: 15px;
+  min-height: 130%;
+}
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.judul {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.judul2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.judul3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.judul4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.judul5 {
+  margin-bottom: 20px;
+}
+.border {
+  background-color: white;
+  border-radius: 20px;
+}
+.border2 {
+  background-color: white;
+  border-radius: 20px;
+}
+.table-responsive {
+  text-align: left;
+  padding: 20px; /* add more padding to the left and right of the table */
+  overflow: hidden; /* add this property to apply border-radius to collapsed tables */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed
+}
+table.table-bordered {
+  border: 2px solid rgb(88, 56, 250) !important;
+  border-radius: 20px; /* add border-radius to the table */
+}
+table.table-bordered th,
+table.table-bordered td {
+  padding: 10px;
+}
+
+.approvebtn {
+  height: 35px;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.rejectbtn {
+  margin-top: 5px;
+  height: 35px;
+  width: 60%;
+  border-radius: 5px;
+}
+
